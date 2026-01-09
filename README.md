@@ -1,110 +1,148 @@
+<!-- this layout is different because this project was more technical that personal projects -->  
+<!-- for solo projects, remove/rename My Contributions -->
+
 # 12-Story Condominium HVAC Design
 
-**Category:** Academic / Portfolio Project  
-**Type:** Solo Project  
-**Timeline:** [Placeholder: Month Year – Month Year]  
-**Tools / Software:** [Placeholder: AutoCAD, Revit, Excel, etc.]  
-**Status:** Completed  
+**Residential Multi-Story HVAC System – Toronto, Canada**  
+
+**[Placeholder: Cover image of building or HVAC system schematic]**
 
 ---
 
-## Project Overview
-Designed a complete HVAC system for a **12-story residential condominium**, ensuring **thermal comfort, energy efficiency, and code compliance**. The project includes:  
+## Project Summary
+Designed an **efficient HVAC system** for a 12-story residential condominium, balancing **comfort, energy efficiency, and environmental sustainability**. The project evaluated **conventional systems, GSHP (ground-source heat pump), and hybrid GSHP systems**, comparing energy consumption, GHG emissions, and operational costs.  
 
-- **Load calculations** for heating and cooling across all floors.  
-- **Equipment selection** (AHUs, boilers, chillers) based on calculated loads.  
-- **Ductwork layout and zoning strategies** for optimal airflow.  
-- Preliminary **energy performance analysis**.  
+**Key Outcomes:**  
+- Hybrid GSHP system reduced GHG emissions by **~90%** compared to conventional systems.  
+- Optimized borehole loop lengths and flow rates for **cost-effective geothermal implementation**.  
+- Achieved **balanced indoor comfort** across summer and winter design conditions.  
 
-**[Placeholder: Cover image of building / HVAC schematic]**
+**[Placeholder: Project overview diagram or eQuest simulation screenshot]**
 
 ---
 
 ## Problem Statement
 
-### Background
-Multi-story residential buildings present challenges in balancing comfort, airflow, energy efficiency, and space constraints. The goal was to develop an **integrated HVAC system** that meets functional requirements and sustainability goals.  
+Toronto’s residential buildings face high energy demand for heating and cooling, and conventional HVAC systems contribute significantly to **GHG emissions and operational costs**.  
 
-### Project Context & Contributions
-- Conducted **heating and cooling load calculations** for all floors.  
-- Designed **ductwork layouts and zoning strategies**.  
-- Selected **HVAC equipment** based on load calculations and efficiency.  
-- Prepared **documentation** including schematics, tables, and calculations.  
-
-**[Placeholder: Floor plan or HVAC zoning diagram]**
+### Challenge
+- Design a system capable of handling **peak summer and winter loads**.  
+- Minimize **energy consumption and carbon footprint**.  
+- Incorporate **ground-source heat pumps (GSHP) and hybrid approaches** for sustainable performance.  
 
 ---
 
-## Assumptions & Constraints
-
-### Assumptions
-- Standard occupancy and internal heat gains per apartment.  
-- Local climate data used for external load calculations.  
-- Equipment sized for **peak loads with safety margin**.  
-- Standard ventilation rates per building codes.  
-
-### Design Constraints
-- Limited space for **mechanical rooms and vertical shafts**.  
-- Noise and vibration constraints for residential comfort.  
-- Compliance with **building codes and HVAC standards**.  
-- Budget and installation feasibility.  
-
-**[Placeholder: Table summarizing assumptions and constraints]**
+## My Contributions
+- Developed the **building energy model** in eQuest to calculate heating/cooling loads, ventilation, infiltration, and R-values.  
+- Simulated indoor comfort for **summer and winter design conditions**.  
+- Evaluated **three system options**: Conventional HVAC, GSHP, and Hybrid GSHP.  
+- Optimized GSHP loop lengths and pump sizing using **HGS software**.  
+- Conducted **performance and environmental analysis**, comparing energy consumption, GHG emissions, and operational costs.  
+- Prepared **visual documentation** including load tables, charts, and borehole layouts for portfolio presentation.  
 
 ---
 
 ## Design Methodology
-1. **Load Calculations**  
-   - Heating and cooling loads for each floor/apartment.  
-   - **[Placeholder: Table or spreadsheet snapshot of load calculations]**
 
-2. **Equipment Selection**  
-   - AHUs, chillers, boilers sized based on loads and efficiency.  
-   - **[Placeholder: Table of equipment specifications]**
+### 1. Building Modeling & Simulations
+- Created **energy model** to calculate loads, ventilation, and infiltration.  
+- Simulated indoor comfort across summer and winter design conditions.  
+**[Placeholder: eQuest simulation screenshot / building model diagram]**
 
-3. **Ductwork & Air Distribution**  
-   - Main and branch ducts designed for optimal airflow.  
-   - Zoning implemented for comfort and efficiency.  
-   - **[Placeholder: Ductwork layout diagram]**
+### 2. System Selection & Optimization
+- Evaluated **Conventional, GSHP, and Hybrid GSHP** systems.  
+- Optimized **GSHP loop lengths and pump sizing** to reduce installation cost while meeting comfort and efficiency targets.  
+**[Placeholder: Table of equipment/system specifications]**
 
-4. **System Integration**  
-   - Integration with building architecture, maintenance access, and space constraints.  
-   - **[Placeholder: System schematic diagram]**
-
-5. **Energy & Performance Evaluation**  
-   - Preliminary analysis of energy efficiency for design alternatives.  
-   - **[Placeholder: Chart or table of energy metrics]**
+### 3. Performance & Environmental Analysis
+- Calculated **annual energy consumption** and **GHG emissions** for each system.  
+- Compared **operational costs** and **capital investment** to determine feasibility.  
+**[Placeholder: Chart showing energy use and GHG comparison]**
 
 ---
 
-## Key Results
-- Central HVAC system meets **heating/cooling needs** of all apartments.  
-- Airflow rates and duct sizes **optimized for comfort and efficiency**.  
-- Equipment selection ensures **peak load coverage and energy efficiency**.  
+## Design Parameters
 
-**Key Performance Highlights:**  
-
-| Metric                 | Value        | Notes                   |
-|------------------------|-------------|------------------------|
-| Peak Cooling Load       | [Placeholder] kW |                        |
-| Peak Heating Load       | [Placeholder] kW |                        |
-| Total Airflow           | [Placeholder] m³/s |                        |
-| Equipment Efficiency    | [Placeholder] % |                        |
-| Estimated Energy Use    | [Placeholder] kWh/year |                        |
-
-**[Placeholder: Additional tables / charts / annotated diagrams]**
+| Parameter                     | Value                  |
+|--------------------------------|-----------------------|
+| Peak Cooling Load              | 296 kBtu/hr           |
+| Peak Heating Load              | 423 kBtu/hr           |
+| Annual Electricity (Hybrid GSHP) | 24,929 kWh          |
+| Annual Gas (Hybrid GSHP)       | 479 m³                |
+| Total GHG (Hybrid GSHP)        | 5,210 kg CO₂          |
+| Ventilation                     | 180 cfm for 12 units |
+| Infiltration (Winter, 1 unit)  | 34.22 cfm            |
 
 ---
 
-## Conclusion
-- Developed a **comprehensive HVAC design** for a multi-story residential building.  
-- Applied **engineering principles** to calculate loads, size equipment, and design airflow.  
-- Emphasized **energy efficiency, compliance, and practical integration**.  
-- Documentation provides a reference for **implementation or further study**.  
+## Innovative Features
+- **Hybrid GSHP Optimization:** Reduced borehole length from 230 ft (GSHP) to 181 ft (Hybrid) for cost-effective heating/cooling.  
+- **Energy Efficiency:** Hybrid system cut electricity consumption by **~87,000 kWh annually** compared to conventional HVAC.  
+- **Environmental Impact:** Reduced total GHG emissions by **~44,000 kg CO₂ per year**.  
 
-**[Placeholder: Conceptual system diagram / visual summary]**
+**[Placeholder: Visual diagram comparing system configurations]**
 
 ---
 
-## About (Concise)
-> Designed a complete HVAC system for a 12-story residential condominium, including **load calculations, equipment selection, duct layouts, and zoning strategies**, with a focus on **comfort, energy efficiency, and code compliance**.
+## Visual Results
+
+### 1. Peak Load Comparison
+**[Placeholder: Diagram showing conventional vs GSHP vs hybrid peak heating/cooling loads]**
+
+### 2. Energy Consumption Breakdown
+- Conventional HVAC → High electricity & gas usage  
+- GSHP → Reduced electricity, zero gas  
+- Hybrid GSHP → Minimal electricity & gas, low operational cost  
+**[Placeholder: Energy consumption bar chart]**
+
+### 3. Borehole Layout (Hybrid System)
+- Red line → Heating loop  
+- Blue line → Cooling loop  
+**[Placeholder: Borehole layout diagram]**
+
+---
+
+## Key Takeaways
+- Hybrid GSHP provides the **optimal balance** between cost, energy efficiency, and environmental sustainability.  
+- **eQuest + HGS simulation workflow** enables data-driven HVAC design decisions.  
+- Portfolio demonstrates **mastery of HVAC engineering, energy modeling, and sustainable design principles**.  
+- Highlights **technical problem-solving, optimization, and environmentally conscious system design** — all transferable skills for professional engineering roles.  
+
+---
+
+## Key Skills
+- HVAC System Design & Load Calculations  
+- Energy Modeling (eQuest, HGS Software)  
+- Ground-Source Heat Pump & Hybrid System Optimization  
+- Ductwork & Airflow Design  
+- Energy Efficiency & GHG Reduction Analysis  
+- Technical Documentation & Visualization  
+
+---
+
+## Design Artifacts
+- Load calculation tables & spreadsheets  
+- HVAC system schematics and floor plan diagrams  
+- Duct layout and zoning diagrams  
+- Equipment selection tables  
+- Energy performance charts & simulation outputs  
+
+**[Placeholders for images or downloadable files]**  
+![Floor Plan Diagram](#)  
+![Duct Layout](#)  
+![Energy Performance Chart](#)
+
+---
+
+## Links
+<!--
+- [GitHub Repository](#) – Full project files (CAD, calculations, etc.)  
+- [Portfolio Webpage](#) – Interactive project overview with visuals  
+- [Additional Resources](#) – Optional: supplementary documents or reports
+-->
+
+<a href="https://faisalaeng.github.io/portfolio-website/" target="_blank">Portfolio Page</a>
+
+[Portfolio Project Page](https://faisalaeng.github.io/portfolio-website/projects/12_story_condo_hvac_design/12_story_condo_hvac_design.html)
+
+[Technical Report (PDF)](https://faisalaeng.github.io/portfolio-website/projects/12_story_condo_hvac_design/12_story_condo_hvac_design_ar.pdf)
